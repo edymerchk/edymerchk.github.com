@@ -4,7 +4,7 @@ title: Luis Edymerchk Laverde
 email: edyhack@gmail.com
 locale: en_US
 description: Programming stuff and some weird thoughts.
-logo: site-logo.png
+logo: avatar.jpeg
 search: true
 # url: "http://edymerchk.com"
 
@@ -34,7 +34,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Luis Edymerchk laverde
-  avatar: site-logo.jpeg
+  avatar: avatar.jpeg
   email: edyhack@gmail.com
   disqus-shortname:
   twitter: edymerchk

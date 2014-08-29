@@ -4,9 +4,6 @@ title: "Let's Start"
 modified:
 categories:
 excerpt:
-tags: []
-image:
-  feature:
 date: 2014-08-29T09:46:52-05:00
 ---
 
