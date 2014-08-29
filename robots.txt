@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://edymerchk.github.io/sitemap.xml 
