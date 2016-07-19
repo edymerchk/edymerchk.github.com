@@ -1,0 +1,35 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://edymerchk.com
+author: Luis Edymerchk Laverde
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Luis Edymerchk Laverde's Resume
+name: Luis Edymerchk Laverde
+email: edyhack@gmail.com
+email_full: mailto:edyhack@gmail.com
+website: edymerchk.com
+website_full: https://edymerchk.com
+github: edymerchk
+twitter: edymerchk
+linkedin: luis-edymerchk-laverde-30a5982a
+instagram: edymerchk
+tel: +57 301 717 4143
+tel_full: tel:+573017174143
+google_maps: 'https://www.google.com.co/maps/place/Medell%C3%ADn,+Antioquia/@6.2690006,-75.73682,11z/data=!3m1!4b1!4m5!3m4!1s0x8e4428ef4e52dddb:0x722fd6c39270ac72!8m2!3d6.244203!4d-75.5812119?hl=es-419'
+city: Medellin
+country: Colombia
+google_analytics:
+
+# needed for travis-ci build
+exclude: [vendor]
