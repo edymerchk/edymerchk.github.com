@@ -24,6 +24,24 @@ const projects = [
     url: null, access: "Private",
     icon: '<path d="m3 11 9-8 9 8M5 10v10h14V10M9 20v-7h6v7"/>',
   },
+  {
+    name: "SideVista", slug: "sidevista",
+    description: "Estimate which side of a flight offers better views of sunrise, sunset, landscapes, and cities.",
+    url: "https://sidevista.edyhack.workers.dev/", access: "Public",
+    icon: '<rect x="4" y="3" width="16" height="18" rx="5"/><path d="M4 12h16M8 16l8-8"/>',
+  },
+  {
+    name: "Maybe", slug: "maybe",
+    description: "Share trips with friends and find chances to travel together.",
+    url: null, access: "Invite only",
+    icon: '<path d="M4 18V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v11M3 18h18M9 5V3h6v2M7 11h10M12 8v6"/>',
+  },
+  {
+    name: "Portfolio Dashboard", slug: "portfolio-dashboard",
+    description: "Review holdings, returns, and trading activity from local brokerage statements.",
+    url: null, access: "Private",
+    icon: '<path d="M4 20V4M4 20h16M7 16l4-4 3 2 5-7"/>',
+  },
 ];
 
 const container = document.querySelector("[data-projects]");
@@ -51,7 +69,7 @@ if (container) {
       link.setAttribute("aria-label", `Visit ${project.name}`);
       link.innerHTML = '<span class="visit-label">Visit project</span><span class="arrow" aria-hidden="true">↗</span>';
       action.append(link);
-    } else if (project.access !== "Private") {
+    } else if (!project.access) {
       const pending = document.createElement("span");
       pending.className = "pending-link";
       pending.textContent = "Link coming soon";

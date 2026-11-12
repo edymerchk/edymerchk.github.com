@@ -34,6 +34,9 @@ h1 { font-family: var(--display); font-size: clamp(46px, 7vw, 78px); line-height
 .project-better-sura { --app-bg: #e5edf5; --app-ink: #3d648a; }
 .project-camara { --app-bg: #f3e9df; --app-ink: #91663e; }
 .project-nido { --app-bg: #ece6f1; --app-ink: #79638d; }
+.project-sidevista { --app-bg: #e2eeed; --app-ink: #417b79; }
+.project-maybe { --app-bg: #f3ece1; --app-ink: #927246; }
+.project-portfolio-dashboard { --app-bg: #e8eae5; --app-ink: #60715f; }
 h3 { font-family: var(--display); font-size: 18px; font-weight: 650; letter-spacing: -.5px; margin: 0 0 8px; }
 .project-description { font-size: 13px; line-height: 1.75; color: var(--muted); max-width: 530px; margin: 0; }
 .project-action { display: flex; align-items: center; gap: 16px; }

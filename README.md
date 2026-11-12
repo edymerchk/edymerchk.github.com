@@ -1,6 +1,6 @@
 # Edy Laverde — portfolio
 
-A responsive personal portfolio using the Editorial design: a quiet introduction and an easy-to-scan list of four projects.
+A responsive personal portfolio using the Editorial design: a quiet introduction and an easy-to-scan list of seven projects.
 
 ## Stack
 
@@ -20,19 +20,20 @@ Visit http://localhost:8080 to view the portfolio.
 
 Project names, descriptions, URLs, and access labels are in `projects.js`.
 
-- Facturoide and Nido are private and have no public links.
-- [Better Sura](https://better-sura.vercel.app/) and [Cámara](https://camaras-cc6weex16-edymerchks-projects.vercel.app/) are public and link to the URLs provided by the owner.
+- Facturoide, Nido, and Portfolio Dashboard are private and have no public links.
+- Maybe is invite only and has no confirmed public link.
+- [Better Sura](https://better-sura.vercel.app/), [Cámara](https://camaras-cc6weex16-edymerchks-projects.vercel.app/), and [SideVista](https://sidevista.edyhack.workers.dev/) are public. SideVista's production URL is documented in its README.
 
-For future projects, use a confirmed public HTTPS URL and `access: "Public"`, or `url: null` and `access: "Private"` for a private project. An unconfigured project with neither a URL nor a private label shows “Link coming soon”.
+For future projects, use a confirmed public HTTPS URL and `access: "Public"`, or `url: null` with `access: "Private"` or `access: "Invite only"` as appropriate. An unconfigured project with neither a URL nor an access label shows “Link coming soon”.
 
-The supplied `../facturoide`, `../better-sura`, `../camaras-med`, and `../nido` paths were used to read project descriptions. They are local source directories, not deployed URLs. No private app data is included.
+The sibling project directories were used to read project descriptions. They are local source directories, not deployed URLs. No private app data is included.
 
 The GitHub profile link uses `edymerchk`, found in the Facturoide repository README. Confirm this is the profile you want to share.
 
 ## Publish on GitHub Pages
 
-The source repository is `edymerchk/portafolio`, published at `https://edymerchk.github.io/portafolio/`. The root URL, `https://edymerchk.github.io/`, is published from the legacy `edymerchk/edymerchk.github.com` repository's `master` branch and `/ (root)` folder. That repository mirrors the site's `index.html`, `styles.css`, `projects.js`, `favicon.svg`, and `.nojekyll` files. Update both repositories when publishing site changes. Relative asset links work at both URLs, and `.nojekyll` keeps the site on plain static hosting.
+This repository, `edymerchk/edymerchk.github.com`, publishes the portfolio at `https://edymerchk.github.io/` from its `master` branch and `/ (root)` folder. Update this repository when publishing site changes. Relative asset links work at the domain root, and `.nojekyll` keeps the site on plain static hosting.
 
 GitHub documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
-The Editorial portfolio is published at both URLs above.
+The Editorial portfolio is published at the root URL above.
